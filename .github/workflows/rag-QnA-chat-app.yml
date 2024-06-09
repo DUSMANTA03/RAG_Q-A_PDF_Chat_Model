@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Dusmanta:$HFDEPLOY@huggingface.co/spaces/Dusmanta/rag-QnA-chat-app
+        run: git push --force https://Dusmanta:$HF_TOKEN@huggingface.co/spaces/Dusmanta/rag-QnA-chat-app
